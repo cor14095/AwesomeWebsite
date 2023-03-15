@@ -12,12 +12,16 @@ module.exports = {
         'darkslategray': '#2f4f4f',
         'inverted-space': '#afaeaf',
         'avatar-blue': '#7094b7',
+        'space-light-blue': '#2f4a5b',
+        'stars-white': '#f1f7fb',
       },
       spacing: {
         'mh': '400vh',
       },
       backgroundImage: {
         'space-image': "url('../public/pexels-instawalli-176851.jpg')",
+        'earth': "url('../public/earth.png')",
+        'avatar': "url('../public/aang.png')"
       },
       animation: {
         'slow-pulse': 'pulse 3s infinite',
