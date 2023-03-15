@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         'space-black': '#505150',
         'darkslategray': '#2f4f4f',
-        'inverted-black': '#afaeaf',
+        'inverted-space': '#afaeaf',
         'avatar-blue': '#7094b7',
       },
       spacing: {
