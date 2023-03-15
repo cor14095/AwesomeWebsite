@@ -6,29 +6,36 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'black': '#505150',
-      'darkslategray': '#2f4f4f',
-      'inverted-black': '#afaeaf',
-    },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-    },
     extend: {
+      colors: {
+        'space-black': '#505150',
+        'darkslategray': '#2f4f4f',
+        'inverted-black': '#afaeaf',
+        'avatar-blue': '#7094b7',
+      },
       spacing: {
-        '1w': '5vw',
-        '2w': '10vw',
-        '3w': '15vw',
-        '4w': '20vw',
-        '5w': '25vw',
-        '1h': '5vh',
-        '2h': '10vh',
-        '3h': '15vh',
-        '4h': '20vh',
-        '5h': '25vh',
+        'mh': '400vh',
       },
       backgroundImage: {
         'space-image': "url('../public/pexels-instawalli-176851.jpg')",
+      },
+      animation: {
+        'slow-pulse': 'pulse 3s infinite',
+        'planet-bounce': 'planet 7s infinite',
+      },
+      keyframes: {
+        planet: {
+          '0%, 50%, 100%': {
+            transform: 'translateY(0)',
+          },
+          '25%': {
+            transform: 'translateY(-5%)',
+          },
+          '75%': {
+            transform: 'translateY(3%)',
+          },
+          
+        },
       }
     },
   },

@@ -1,5 +1,24 @@
 @tailwind base;
 @tailwind components;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'PT Sans', sans-serif;
+  background-color: black;
+}
+
 @tailwind utilities;
 
- 
+@layer utilities {
+  .animation-delay-1s {
+    animation-delay: 1s;
+  }
+
+  .animation-delay-2s {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-3s {
+    animation-delay: 3s;
+  }
+}
