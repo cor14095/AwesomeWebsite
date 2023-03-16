@@ -2,7 +2,7 @@ import React from 'react'
 
 const Planets = () => {
   return (
-    <div id="planets" className='relative w-screen h-screen max-w-full z-0 border-2 border-green-400'>
+    <div id="planets" className='relative w-screen h-screen max-w-full z-0'>
       {/** Planet 1 */}
       <div className='absolute top-10 left-5 w-32 h-32 md:top-20 md:left-10 sm:w-52 sm:h-52 md:w-40 md:h-40 xl:w-72 xl:h-72 rounded-full bg-gradient-to-t from-darkslategray to-avatar-blue blur-lg animate-planet-bounce animation-delay-1s' />
       <div className='absolute top-10 left-5 w-32 h-32 md:top-20 md:left-10 sm:w-52 sm:h-52 md:w-40 md:h-40 xl:w-72 xl:h-72 rounded-full bg-earth bg-cover animate-planet-bounce animation-delay-1s' />
