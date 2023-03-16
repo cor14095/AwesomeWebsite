@@ -6,8 +6,8 @@ import { AiOutlineGithub, AiFillLinkedin, AiFillMail, AiFillHome } from 'react-i
 
 function Footer() {
   return (
-    <div className='relative w-full h-[20vh] bg-gradient-to-t from-space-light-blue z-20'>
-      <div className='grid grid-cols-2 text-stars-white'>
+    <div className='relative w-full h-[25vh] bg-gradient-to-t from-space-light-blue z-20'>
+      <div className='grid grid-cols-2 text-stars-white pt-[5vh]'>
         <div className='flex flex-col'>
           <Image
             src="/perryLogo.png"
@@ -57,6 +57,7 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <div className='absolut bottom-0 left-0 h-[5vh] bg-landscape bg-contain'/>
     </div>
   )
 }

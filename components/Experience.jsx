@@ -60,21 +60,21 @@ function Experience() {
     connect(
       document.getElementById('work-1'),
       document.getElementById('work-2'),
-      'white',
+      '#fcce65',
       '5',
       document.getElementById('experience')
     )
     connect(
       document.getElementById('work-2'),
       document.getElementById('work-3'),
-      'white',
+      '#fcce65',
       '5',
       document.getElementById('experience')
     )
     connect(
       document.getElementById('work-3'),
       document.getElementById('work-4'),
-      'white',
+      '#fcce65',
       '5',
       document.getElementById('experience')
     )
@@ -96,18 +96,15 @@ function Experience() {
   })
 
   return (
-    <div id="experience" className='relative my-10 w-screen h-screen max-w-full z-10 overflow-hidden'>
+    <div id="experience" className='relative my-10 w-screen h-screen max-w-full z-10 overflow-hidden '>
       {/** Work 1 */}
       <div
         id='work-1'
-        className={`absolute bottom-[80%] sm:bottom-[70%] md:bottom-[60%] lg:bottom-[20%] left-[15%] sm:left-[20%] md:left-[10%] lg:left-[10%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
+        className={`absolute bottom-[80%] sm:bottom-[70%] md:bottom-[60%] lg:bottom-[20%] left-[15%] sm:left-[20%] md:left-[10%] lg:left-[10%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-star-1 bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
-          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
+          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto text-black'>
             <h1 className='font-bold text-[12px] md:text-2xl p-1 md:p-4'>Xoom</h1>
-            <p className='text-ellipsis text-[8px]'>
-              2020 - Present
-            </p>
           </div>
         </div>
       </div>
@@ -115,14 +112,11 @@ function Experience() {
       {/** Work 2 */}
       <div
         id='work-2'
-        className={`absolute bottom-[50%] sm:bottom-[40%] md:bottom-[40%] lg:bottom-[45%] left-[55%] sm:left-[70%] md:left-[55%] lg:left-[45%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
+        className={`absolute bottom-[50%] sm:bottom-[40%] md:bottom-[40%] lg:bottom-[45%] left-[55%] sm:left-[70%] md:left-[55%] lg:left-[45%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-star-2 bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
-          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
+          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto text-black'>
             <h1 className='font-bold text-[12px] md:text-2xl p-1 md:p-4'>Zuntex</h1>
-            <p className='text-ellipsis text-[8px]'>
-              2019 - 2020
-            </p>
           </div>
         </div>
       </div>
@@ -130,14 +124,11 @@ function Experience() {
       {/** Work 3 */}
       <div
         id='work-3'
-        className={`absolute bottom-[25%] sm:bottom-[15%] md:bottom-[20%] lg:bottom-[60%] left-[65%] sm:left-[75%] md:left-[75%] lg:left-[65%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
+        className={`absolute bottom-[25%] sm:bottom-[15%] md:bottom-[20%] lg:bottom-[60%] left-[65%] sm:left-[75%] md:left-[75%] lg:left-[65%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-star-1 bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
-          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
+          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto text-black'>
             <h1 className='font-bold text-[12px] md:text-2xl p-1 md:p-4'>DevPack</h1>
-            <p className='text-ellipsis text-[8px]'>
-              2018 - 2022
-            </p>
           </div>
         </div>
       </div>
@@ -145,18 +136,15 @@ function Experience() {
       {/** Work 4 */}
       <div
         id='work-4'
-        className={`absolute bottom-[10%] sm:bottom-[5%] md:bottom-[5%] lg:bottom-[50%] left-[25%] sm:left-[45%] md:left-[50%] lg:left-[80%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
+        className={`absolute bottom-[10%] sm:bottom-[5%] md:bottom-[5%] lg:bottom-[50%] left-[25%] sm:left-[45%] md:left-[50%] lg:left-[80%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-star-2 bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
-          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
+          <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto text-black'>
             <h1 className='font-bold text-[12px] md:text-2xl p-1 md:p-4'>CoditexSA</h1>
-            <p className='text-ellipsis text-[8px]'>
-              2017 - 2020
-            </p>
           </div>
         </div>
       </div>
-      
+
     </div>
   )
 }

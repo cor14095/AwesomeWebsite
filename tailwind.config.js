@@ -29,7 +29,9 @@ module.exports = {
         'hand': "url('../public/hand.png')",
         'perry': "url('../public/perryLogo.png')",
         'orb': "url('../public/perryLogo.png')",
-        'star': "url('../public/perryLogo.png')",
+        'star-1': "url('../public/estrella1.png')",
+        'star-2': "url('../public/estrella2.png')",
+        'landscape': "url('../public/landscape.png')",
       },
       animation: {
         'slow-pulse': 'pulse 3s infinite',
