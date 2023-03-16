@@ -23,4 +23,9 @@ body {
   .animation-delay-3s {
     animation-delay: 3s;
   }
+
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
 }

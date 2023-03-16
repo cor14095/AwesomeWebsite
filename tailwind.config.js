@@ -20,12 +20,16 @@ module.exports = {
       },
       backgroundImage: {
         'space-image': "url('../public/pexels-instawalli-176851.jpg')",
+        'purple-space-image': "url('../public/modal-bg.jpg')",
         'earth': "url('../public/earth.png')",
-        'avatar': "url('../public/aang.png')"
+        'avatar': "url('../public/aang.png')",
+        'hand': "url('../public/hand.png')",
       },
       animation: {
         'slow-pulse': 'pulse 3s infinite',
         'planet-bounce': 'planet 7s infinite',
+        'left-slide': 'leftSlide 3s 1',
+        'right-slide': 'rightSlide 3s 1',
       },
       keyframes: {
         planet: {
@@ -37,9 +41,24 @@ module.exports = {
           },
           '75%': {
             transform: 'translateY(3%)',
-          },
-          
+          }
         },
+        leftSlide: {
+          from: {
+            transform: 'translateX(0)'
+          },
+          to: {
+            transform: 'translateX(-100%)'
+          }
+        },
+        rightSlide: {
+          from: {
+            transform: 'translateX(0)'
+          },
+          to: {
+            transform: 'translateX(100%)'
+          }
+        }
       }
     },
   },
