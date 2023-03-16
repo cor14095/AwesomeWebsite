@@ -21,9 +21,15 @@ module.exports = {
       backgroundImage: {
         'space-image': "url('../public/pexels-instawalli-176851.jpg')",
         'purple-space-image': "url('../public/modal-bg.jpg')",
-        'earth': "url('../public/earth.png')",
+        'planet-1': "url('../public/prueba_Planeta.png')",
+        'planet-2':"url('../public/prueba2_Planeta.png')",
+        'planet-3': "url('../public/prueba3_Planeta.png')",
+        'planet-4': "url('../public/prueba4_Planeta.png')",
         'avatar': "url('../public/aang.png')",
         'hand': "url('../public/hand.png')",
+        'perry': "url('../public/perryLogo.png')",
+        'orb': "url('../public/perryLogo.png')",
+        'star': "url('../public/perryLogo.png')",
       },
       animation: {
         'slow-pulse': 'pulse 3s infinite',

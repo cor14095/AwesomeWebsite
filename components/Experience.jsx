@@ -100,7 +100,7 @@ function Experience() {
       {/** Work 1 */}
       <div
         id='work-1'
-        className={`absolute bottom-[80%] sm:bottom-[70%] md:bottom-[60%] lg:bottom-[20%] left-[15%] sm:left-[20%] md:left-[10%] lg:left-[10%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full bg-avatar-blue z-10`}
+        className={`absolute bottom-[80%] sm:bottom-[70%] md:bottom-[60%] lg:bottom-[20%] left-[15%] sm:left-[20%] md:left-[10%] lg:left-[10%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
           <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
@@ -115,7 +115,7 @@ function Experience() {
       {/** Work 2 */}
       <div
         id='work-2'
-        className={`absolute bottom-[50%] sm:bottom-[40%] md:bottom-[40%] lg:bottom-[45%] left-[55%] sm:left-[70%] md:left-[55%] lg:left-[45%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full bg-avatar-blue z-10`}
+        className={`absolute bottom-[50%] sm:bottom-[40%] md:bottom-[40%] lg:bottom-[45%] left-[55%] sm:left-[70%] md:left-[55%] lg:left-[45%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
           <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
@@ -130,7 +130,7 @@ function Experience() {
       {/** Work 3 */}
       <div
         id='work-3'
-        className={`absolute bottom-[25%] sm:bottom-[15%] md:bottom-[20%] lg:bottom-[60%] left-[65%] sm:left-[75%] md:left-[75%] lg:left-[65%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full bg-avatar-blue z-10`}
+        className={`absolute bottom-[25%] sm:bottom-[15%] md:bottom-[20%] lg:bottom-[60%] left-[65%] sm:left-[75%] md:left-[75%] lg:left-[65%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
           <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>
@@ -145,7 +145,7 @@ function Experience() {
       {/** Work 4 */}
       <div
         id='work-4'
-        className={`absolute bottom-[10%] sm:bottom-[5%] md:bottom-[5%] lg:bottom-[50%] left-[25%] sm:left-[45%] md:left-[50%] lg:left-[80%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full bg-avatar-blue z-10`}
+        className={`absolute bottom-[10%] sm:bottom-[5%] md:bottom-[5%] lg:bottom-[50%] left-[25%] sm:left-[45%] md:left-[50%] lg:left-[80%] w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-orb bg-cover z-10`}
       >
         <div className='m-auto flex justify-between items-center p-2 w-full h-full text-white'>
           <div className='flex-col justify-center items-center text-center max-h-[70%] max-w-full whitespace-pre-warp overflow-hidden m-auto'>

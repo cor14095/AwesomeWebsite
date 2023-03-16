@@ -39,9 +39,7 @@ const Nav = () => {
   return (
     <div id='nav' className='fixed left-0 top-0 w-full bg-gradient-to-b from-space-light-blue z-20'>
       <div className='m-auto flex justify-between items-center p-4 text-inverted-space'>
-        <Link href='/#' className='z-10'>
-          <h1 className='font-bold text-2xl hover:text-space-black'>{titleText}</h1>
-        </Link>
+        <h1 className='font-bold text-2xl hover:text-space-black'>{titleText}</h1>
 
         {/** Web Nav */}
         <ul className='hidden md:flex z-20'>

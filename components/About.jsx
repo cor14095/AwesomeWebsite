@@ -73,7 +73,7 @@ function About() {
       {/** Information gloves */}
       {/** Personal */}
       <div
-        className={`absolute bottom-[70%] sm:bottom-[70%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[10%] lg:left-[10%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 rounded-full bg-avatar-blue/80 ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
+        className={`absolute bottom-[70%] sm:bottom-[70%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[10%] lg:left-[10%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 bg-orb bg-cover ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
         onClick={() => handleModal('Personal') }
       >
         <div
@@ -92,7 +92,7 @@ function About() {
 
       {/** Hobbies */}
       <div
-        className={`absolute bottom-[40%] sm:bottom-[40%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[40%] xl:left-[40%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 rounded-full bg-avatar-blue/80 ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
+        className={`absolute bottom-[40%] sm:bottom-[40%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[40%] xl:left-[40%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 bg-orb bg-cover ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
         onClick={() => handleModal('Hobbies')}
       >
         <div
@@ -111,7 +111,7 @@ function About() {
 
       {/** Goals */}
       <div
-        className={`absolute bottom-[10%] sm:bottom-[10%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[70%] xl:left-[70%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 rounded-full bg-avatar-blue/80 ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
+        className={`absolute bottom-[10%] sm:bottom-[10%] md:bottom-[40%] xl:bottom-[40%] 2xl:top-[40%] left-[25%] sm:left-[30%] md:left-[70%] xl:left-[70%] w-52 h-52 sm:w-64 sm:h-64 md:w-52 md:h-52 xl:w-72 xl:h-72 bg-orb bg-cover ${handsA ? 'scale-100 ease-in' : 'scale-0 ease-out'} duration-1000 scale-0`}
         onClick={() => handleModal('Goals')}
       >
         <div
