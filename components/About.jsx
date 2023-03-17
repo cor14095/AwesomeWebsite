@@ -103,7 +103,7 @@ function About() {
           >
             <h1 className='font-bold text-sm md:text-2xl p-1 md:p-4'>Hobbies</h1>
             <p className='font-bold text-ellipsis text-xs'>
-              I'm Enjoy spendig my free time reading about programming or financial news, weirdly enough I love financial topics and [...]
+              I enjoy spendig my free time reading about programming or financial news, weirdly enough I love financial topics and [...]
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ function About() {
           >
             <h1 className='font-bold text-sm md:text-2xl p-1 md:p-4'>Goals</h1>
             <p className='font-bold text-ellipsis text-xs'>
-              Since the begining of my life I've had some consistente goals, some of them have modify but most remain similar, the main goal on my [...]
+              Since the begining of my life I've had some consistent goals, some of them have changed but most remain similar, the main goal on my life is [...]
             </p>
           </div>
         </div>
@@ -133,7 +133,7 @@ function About() {
         className={`fixed top-0 left-0 ${modal ? 'visible' : 'invisible'} w-full h-full max-w-full bg-black/90 z-30`}
         onClick={() => handleModal('')}
       >
-        <div className='absolute top-[50%] left-[50%] flex-col justify-center items-center text-center w-[100%] h-[80%] md:w-[90%] xl:w-[50%] bg-modal-bg bg-contain bg-top bg-no-repeat translate-x-[-50%] translate-y-[-50%] z-40 divide-y-4 divide-slate-400/25 max-w-[970px]'>
+        <div className='absolute top-[50%] left-[50%] flex-col justify-center items-center text-center w-[100%] h-[80%] md:w-[90%] xl:w-[50%] bg-modal-bg bg-contain bg-top bg-no-repeat translate-x-[-50%] translate-y-[-50%] z-40 divide-y-4 divide-slate-400/25 max-w-[750px]'>
           <div className='m-auto pt-2 pb-2 text-stars-white text-[72px] font-bold'>
             <h1>{ Title }</h1>
           </div>
