@@ -57,7 +57,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className='absolut bottom-0 left-0 h-[5vh] bg-landscape bg-contain'/>
+      <div className='!absolute w-full bottom-0 left-0 h-[5vh] bg-landscape bg-contain'/>
     </div>
   )
 }
